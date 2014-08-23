@@ -1,0 +1,998 @@
+{\rtf1\ansi\ansicpg1252\deflang3081\ftnbj\uc1\deff0
+{\fonttbl{\f0 \fswiss \fcharset1 Arial;}{\f1 \froman \fcharset2 Times New Roman;}{\f2 \froman \fcharset2 Symbol;}{\f3 \fswiss \fcharset0 Times New Roman;}{\f4 \froman \fcharset0 Times New Roman;}{\f5 \fswiss \fcharset0 Arial;}{\f6 \fswiss \fcharset0 Lucida 
+Sans;}{\f7 \fdecor \fcharset2 Wingdings;}{\f8 \fmodern \fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0 ;\red255\green255\blue255 ;\red0\green64\blue128 ;\red255\green255\blue128 ;\red15\green15\blue15 ;\red0\green0\blue160 ;\red0\green0\blue255 ;\red239\green239\blue239 ;}
+{\stylesheet{\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Normal;}{\cs1\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0 Default Paragraph Font;}{\s2\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 TOC 1;}{\s3\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li180\ri0\sb0\sa0\sl0\shading0 TOC 2
+;}{\s4\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li360\ri0\sb0\sa0\sl0\shading0 TOC 3;}{\s5\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li540\ri0\sb0\sa0\sl0\shading0 TOC 4;}{\s6\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li720\ri0\sb0\sa0\sl0\shading0 TOC 5
+;}{\s7\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li900\ri0\sb0\sa0\sl0\shading0 TOC 6;}{\s8\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li1080\ri0\sb0\sa0\sl0\shading0 TOC 7;}{\s9\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li1260\ri0\sb0\sa0\sl0\shading0 TOC 8
+;}{\s10\snext0\f0\fs24\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li1440\ri0\sb0\sa0\sl0\shading0 TOC 9;}{\s11\snext0\outlinelevel0\f0\fs32\b\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel0 Heading 1;}{\s12\snext0\outlinelevel1\f0\fs28\b\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel1 Heading 2
+;}{\s13\snext0\outlinelevel2\f0\fs26\b\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel2 Heading 3;}{\s14\snext0\outlinelevel3\f0\fs28\b\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel3 Heading 4;}{\s15\snext0\outlinelevel4\f0\fs26\b\i\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel4 Heading 5
+;}{\s16\snext0\outlinelevel5\f0\fs22\b\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel5 Heading 6;}{\s17\snext0\outlinelevel6\f0\fs24\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel6 Heading 7;}{\s18\snext0\outlinelevel7\f0\fs24\i\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel7 Heading 8
+;}{\s19\snext0\outlinelevel8\f0\fs22\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\outlinelevel8 Heading 9;}{\s20\snext0\f0\fs32\b\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb240\sa60\sl0\shading0\qc Title;}{\s21\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi-360\li360\ri0\sb0\sa0\sl0\shading0 Numbered List
+;}{\s22\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi-360\li360\ri0\sb0\sa0\sl0\shading0 Bulleted List;}{\s23\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa120\sl0\shading0 Body Text;}{\s24\snext0\f0\fs18\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa120\sl0\sl480\slmult1\shading0 Body Text 2
+;}{\s25\snext0\f0\fs16\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa120\sl0\shading0 Body Text 3;}{\s26\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Note Heading;}{\s27\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Plain Text
+;}{\s28\snext0\f0\fs20\b\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Strong;}{\s29\snext0\f0\fs20\i\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Emphasis;}{\s30\snext0\f0\fs20\ul\cf7\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Hyperlink
+;}{\s31\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Footer;}{\s32\snext0\f0\fs20\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Header;}{\s33\snext0\f0\fs18\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 Code
+;}{\cs34\f0\fs20\i\cf3\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0 Field Label;}{\cs35\f0\fs22\b\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0 Table Heading;}{\cs36\f6\fs16\b\protect\cf1\cb4\chcbpat4\expnd0\expndtw0\charscalex100\dn0 SSBookmark;}{\cs37\f0\fs20\b\ul\cf1\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0 Object type
+;}{\s38\snext0\f0\fs20\b\i\cf6\cb2\chcbpat2\expnd0\expndtw0\charscalex100\dn0\fi0\li0\ri0\sb0\sa0\sl0\shading0 List Header;}}
+{\*\revtbl{Unknown;}}
+{\*\listtable
+{\list\listtemplateid1
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'00.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List1;}\listid1
+}
+{\list\listtemplateid2
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List2;}\listid2
+}
+{\list\listtemplateid3
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f1\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List3;}\listid3
+}
+{\list\listtemplateid4
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f1\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List4;}\listid4
+}
+{\list\listtemplateid5
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List5;}\listid5
+}
+{\list\listtemplateid6
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List6;}\listid6
+}
+{\list\listtemplateid7
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'00.}{\levelnumbers \'01}\f3\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List7;}\listid7
+}
+{\list\listtemplateid8
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List8;}\listid8
+}
+{\list\listtemplateid9
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List9;}\listid9
+}
+{\list\listtemplateid10
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List10;}\listid10
+}
+{\list\listtemplateid11
+{\listlevel\levelnfc23\levelfollow0\levelstartat1{\leveltext \'01\'b7}{\levelnumbers}\f2\fs24\cf1}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'01.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'02.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'03.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'04.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'05.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'06.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'07.}{\levelnumbers \'01}}
+{\listlevel\levelnfc0\levelfollow0\levelstartat1{\leveltext \'02\'08.}{\levelnumbers \'01}}
+{\listname List11;}\listid11
+}
+}
+{\*\listoverridetable}
+\paperw11908\paperh16833\margl1440\margr1440\margt1440\margb1440\headery720\footery720\nogrowautofit\deftab720\formshade\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot
+\sectd\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\headery720\footery720\sbkpage\pgncont\pgndec
+\plain\plain\f0\fs20
+{\header
+\trowd\trgaph60\trleft0\trrh230
+\clvertalt\clbrdrb\brdrs\brdrw1\cellx3510
+\clvertalt\clbrdrb\brdrs\brdrw1\cellx5760
+\clvertalt\clbrdrb\brdrs\brdrw1\cellx9360
+\pard\intbl\s32\tx4320\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf0\ul\loch Model Specification\cell
+\pard\intbl\s32\tx4320\qc\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf0\ul\cell
+\pard\intbl\s32\tx4320\qr\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf0\ul\loch Page: {\field{\*\fldinst PAGE}{\fldrslt\loch 1}}\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\ul0\intbl\row
+\pard\s32\tx4320\qr\plain\f0\fs20\lang3081\hich\f4\dbch\f4\loch\f4\cf0\par
+\plain\f0\fs20}
+\pard\s20\sb240\sa60\qc\lang1033\hich\f3\dbch\f3\loch\f3\cf0\fs32\loch Table of Contents\par
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\cf0\par
+\pard\s2\tqr\tldot\tx9270\ql\plain\f0\fs20\fs24{\field{\*\fldinst TOC \\o "1-9"}{\fldrslt\loch Model Detail\tab\loch 2\par
+\pard\s3\tqr\tldot\tx9270\li180\ql\loch TemplateMethodPattern \tab\loch 2\par
+\pard\s4\tqr\tldot\tx9270\li360\ql\loch AbstractCalculator\tab\loch 3\par
+\loch AbstractTemplate\tab\loch 4\par
+\loch ConcreteTemplate\tab\loch 5\par
+\loch ConcreteTemplate\tab\loch 5\par
+\loch PlusCalculator\tab\loch 6\par
+\pard\s2\tqr\tldot\tx9270\ql}}\lang3081\hich\f4\dbch\f4\loch\f4\cf0\fs20\pard\s2\tqr\tldot\tx9270\ql\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\loch\page\pard\s20\sb240\sa60\qc\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf0\fs32\ul\loch Model Documentation\hich\f3\dbch\f3\loch\f3\ul0\par
+\pard\s11\sb240\sa60\ql\plain\f0\fs20\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs32\b\loch Model Detail\par
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\cf0\loch This document provides a complete overview of all element details. For simpler and more focused reports, simply \loch copy this initial template and turn off the sections not required. \plain\f5\fs20\par
+\par
+\hich\f3\dbch\f3\loch\f3\par
+\pard\s12\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart TemplateMethodPattern}{\*\bkmkstart BKM_1AD6E57D_A059_4098_917E_5B4C5A3F15B2}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs28\b\protect\loch Pkg.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs28\b\loch 
+TemplateMethodPattern}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs28\b\loch  \par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\plain\f5\fs20\loch\tab\tab\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\ul\loch Package\ul0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Pkg.Stereotype}{\fldrslt}}\plain\f5\fs20\ql\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.Status}{\fldrslt\loch Proposed}}\loch . Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.Version}{\fldrslt\loch 1.0}}\loch . Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.ParentPackage}{\fldrslt\loch Behavior}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f4\dbch\f4\loch\f4\loch  {\field\fldlock{\*\fldinst MERGEFIELD \protect\loch 
+Pkg.DateCreatedShort}{\fldrslt\loch 2014/8/2}}\hich\f3\dbch\f3\loch\f3\i0\loch . \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Pkg.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.GUID}{\fldrslt\loch \{1AD6E57D-A059-4098-917E-5B4C5A3F15B2\}}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Pkg.Notes}{\fldrslt}}\ql\par
+{\*\bkmkstart BKM_895AF6FA_D302_487b_826D_8C9C360AB3E8}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Diagram.Name}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch Calulator - TemplateMethodPattern}}\loch  - \lang1033\hich\f4\dbch\f4\loch\f4\i\loch ({\field\fldlock{\*\fldinst 
+MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Type}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch Logical}}\loch  diagram) \lang3081\hich\f3\dbch\f3\loch\f3\i0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Created By:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Author}{\fldrslt\loch chaoch}}\loch  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch 
+on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.DateCreatedShort}{\fldrslt\loch 2014/8/2}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Last Modified:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.DateModifiedShort}{\fldrslt\loch 2014/8/2}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Version:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Version}{\fldrslt\loch 1.0}}\loch . \hich\f4\dbch\f4\loch\f4\cf3\i\loch 
+Locked:\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.IsLocked}{\fldrslt\loch False}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.GUID}{\fldrslt\loch \{895AF6FA-D302-487b-826D-8C9C360AB3E8\}}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Notes}{\fldrslt}}\ql\par
+\qc\plain\f0\fs20\hich\f0\dbch\f0\loch\f0\cf0
+{\*\shppict{\pict\emfblip\picw9377\pich11800\picwgoal5310\pichgoal6690\picscalex100\picscaley100\sspicalign0\bin18624   l   øÿÿÿÿÿÿÿ  X           $  .   EMF   ÀH  ¦                 @  „  4  >              Üœ <Ø F   ,       EMF+@       ÀÛ   `   `   F   ¼   °   EMF+@        *@  $        €?          €¿        @ 8   ,   ÀÛ    †                     ÀÛ       ÿ@4   (   ÀÛ    @   ÿÿ ³ş	³ş	ÿÿ ÿÿ    @           !      b         $   $     €=          €=           _   8      8       8                                %         %        €W   0   ÿÿÿÿÿÿÿÿ  O        ĞĞ   %        €%         €$   $     €A          €A           (         F   <   0   EMF+@ À,       ÿÿÿÿ    ìÿÎ ìÿÛ úÿÛ ÿÿ ÿÿ ìÿ$   $     €=          €=           '             ÿÿÿ     %                  %        €V   4         Û          @à@°` °    @%        €         %         €$   $     €A          €A           F   p   d   EMF+@ 8   ,   ÀÛ    †                     ÀÛ       ÿ@ `(          ìÿÎ ìÿÛ úÿÛ ÿÿ ÿÿ ìÿ$   $     €=          €=           _   8      8       8                                %         %        €V   4   ÿÿÿÿÿÿÿÿİ          @à@°` °    @%        €%         €$   $     €A          €A           (         "      ÿÿÿÿF         EMF+@         
+                                     	        r  	      `   `         `    ÿÿÿ      d   d   d   d                          R   p     öÿÿÿ            ¼        A R I A L                                                         böÿbĞ©2ğš¸ğš¸:lÂvP~ß˜~ßŒãwi÷uFàw”×  ×´|ŒhªbO 4Vw£ ~ßaƒ_   P jVx7
+qğš¸X\Âv   x7
+q    Ğ-H    ›¸Øÿ¡qp~ß   ßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv      Ã. \~ß>  ßõqw8ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T   T         Ë           BUUÂ   üÿÿÿ   L               ÿÿÿÿÿÿÿÿP       Å                                             T   8        Ì           BUUÂ   üÿÿÿ'   L               ÿÿÿÿÿÿÿÿœ   c l a s s   C a l u l a t o r   -   T e m p l a t e M e t h o d P a t t e r n                                                               	                  	                                                                        
+                            (         F   P   D   EMF+*@  $        €?          €¿ €’Ã  ºÂ
+@ À      À¿Àÿ   7ÿë h (         !      b                  $   $     €=          €=           '             À¿À     %         %        €V   0         ı   „       À @Ğ@ĞÀ À%        €%         €$   $     €A          €A           F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ    À¿Àÿ@ @         7ÿë h :      
+   $   $     €=          €=           _   8      8       8        !        À¿À             %         %        €V   ,   ûÿÿÿ     ›       @Ğ@ĞÀ À%        €%         €$   $     €A          €A           (         :      
+   F   „   x   EMF+@X   L   ÀÛ            šC  ^Ã  kC  ĞBÌÛåÿãòüÿÌÛåÿãòüÿ          ?  €?ÌÛåÿãòüÿãòüÿ
+@ @            4"ÿë h %        €'             åÛÌ     %         %        €V   0                            %        €%         €(         '             çİÎ     %         %        €V   0         !             !  !    %        €%         €(         '             éßĞ     %         %        €V   0   !      *         !  !  *  *  !  %        €%         €(         '             ëáÒ     %         %        €V   0   *      4         *  *  4  4  *  %        €%         €(         '             íãÔ     %         %        €V   0   4      >         4  4  >  >  4  %        €%         €(         '             ïåÖ     %         %        €V   0   >      H         >  >  H  H  >  %        €%         €(         '             ñçØ     %         %        €V   0   H      U         H  H  U  U  H  %        €%         €(         '             óéÚ     %         %        €V   0   U      `         U  U  `  `  U  %        €%         €(         '             õëÜ     %         %        €V   0   `      j         `  `  j  j  `  %        €%         €(         '             ÷íŞ     %         %        €V   0   j      t         j  j  t  t  j  %        €%         €(         '             ùïà     %         %        €V   0   t      ~         t  t  ~  ~  t  %        €%         €(         '             üòã     %         %        €V   0   ~      ú         ~  ~  ú  ú  ~  %        €%         €(         %        €F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@ @         4"ÿë h :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €V   ,   øÿÿÿ     ˜      ğ   ğ %        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         R   p     öÿÿÿ            ¼       A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO T+Vz£@	ø|ßaƒ_   P F+V 7
+”ğ™¸X\Âv    7
+”    Ğ-H   €š¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv‰  óHóH€¸   xš¸}ß}ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T   ¸   W   "   ²   ,        BUUÂ|  ÿÿÿ   L               ÿÿÿÿÿÿÿÿp   A b s t r a c t C a l c u l a t o r                                                       
+      %  £ÿÿÿ              F   |   p   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@$      ÀÛ    @  4oÿoÿ @           !      b                  
+              :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €W   $   øÿÿÿ     K      ğ @ @%        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         R   p     öÿÿÿ                      A R I A L                                                         ¾°{ßø{ß×Ÿ~´|Œô{ßLªb 7
+“Œãwk÷uFàw”×  × |ßaƒ_N J'V1_ 7
+“ğ™¸ğ™¸O 4'V 7
+“ğ™¸XàVõ           Ğ-H   ğ™¸Ø    ä{ß   è}ßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv            H€¸   è™¸¬|ß#àwğ™¸ğ™¸:lÂvè™¸À|ß­…v  ×    ğ™¸dv     %                @@ T   X      <      H        BUUÂ9  gÿÿÿ   L               ÿÿÿÿÿÿÿÿP   +         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   Ü   %   <      H        BUUÂJ  gÿÿÿ   L               ÿÿÿÿÿÿÿÿ|   c a l c u l a t e ( S t r i n g )   :   v o i d                                                                         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X      I      U        BUUÂ9  Zÿÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         R   p     öÿÿÿ                     A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO T*Vz£@	ø|ßaƒ_   P D*V 7
+”ğ™¸X\Âv    7
+”    Ğ-H   pš¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv‰  óHóH€¸   hš¸}ß#àwpš¸    :lÂvhš¸¤}ß­…v  ×    pš¸dv     %                @@ T      %   I   «   U        BUUÂJ  Zÿÿÿ   L               ÿÿÿÿÿÿÿÿˆ   c a l c u l a t e ( l o n g ,   l o n g )   :   S t r i n g                                                                                           
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X      V      b        BUUÂ9  Mÿÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   Ğ   %   V   ˆ   b        BUUÂJ  Mÿÿÿ   L               ÿÿÿÿÿÿÿÿx   g e t O p e r a t o r ( )   :   S t r i n g                                                                   
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X      c      o        BUUÂ9  @ÿÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   Ğ   %   c   ˆ   o        BUUÂJ  @ÿÿÿ   L               ÿÿÿÿÿÿÿÿx   p o s t C a l c u l a t e ( )   :   v o i d                                                                   
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X      p      |        BUUÂ9  3ÿÿÿ   L               ÿÿÿÿÿÿÿÿP   -         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   \  %   p   ö   |        BUUÂJ  3ÿÿÿ-   L               ÿÿÿÿÿÿÿÿ¨   r e t r i e v e O p e r a n d s ( S t r i n g ,   S t r i n g )   :   L i s t < L o n g >                                                                                                                                          
+      %  £ÿÿÿ              F   ,       EMF+
+@ À      À¿Àÿ   [bş  N !      b                  
+              $   $     €=          €=           %         %        €V   0   6   ó   Ö   A     `0```0`0%        €%         €$   $     €A          €A           F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ    À¿Àÿ@ @         [bş  N :      
+   $   $     €=          €=           _   8      8       8        !        À¿À             %         %        €V   ,      Ü   í   X     ```0`0%        €%         €$   $     €A          €A           (         :      
+   F   „   x   EMF+@X   L   ÀÛ            ¬C €ÍÃ   C  œBÌÛåÿãòüÿÌÛåÿãòüÿ          ?  €?ÌÛåÿãòüÿãòüÿ
+@ @            Xeş  N %        €'             åÛÌ     %         %        €V   0   3   ğ   8   >     3 ğ 3 >8 >8 ğ 3 ğ %        €%         €(         '             çİÎ     %         %        €V   0   8   ğ   ?   >     8 ğ 8 >? >? ğ 8 ğ %        €%         €(         '             éßĞ     %         %        €V   0   ?   ğ   F   >     ? ğ ? >F >F ğ ? ğ %        €%         €(         '             ëáÒ     %         %        €V   0   F   ğ   L   >     F ğ F >L >L ğ F ğ %        €%         €(         '             íãÔ     %         %        €V   0   L   ğ   S   >     L ğ L >S >S ğ L ğ %        €%         €(         '             ïåÖ     %         %        €V   0   S   ğ   Z   >     S ğ S >Z >Z ğ S ğ %        €%         €(         '             ñçØ     %         %        €V   0   Z   ğ   c   >     Z ğ Z >c >c ğ Z ğ %        €%         €(         '             óéÚ     %         %        €V   0   c   ğ   j   >     c ğ c >j >j ğ c ğ %        €%         €(         '             õëÜ     %         %        €V   0   j   ğ   q   >     j ğ j >q >q ğ j ğ %        €%         €(         '             ÷íŞ     %         %        €V   0   q   ğ   x   >     q ğ q >x >x ğ q ğ %        €%         €(         '             ùïà     %         %        €V   0   x   ğ   ~   >     x ğ x >~ >~ ğ x ğ %        €%         €(         '             üòã     %         %        €V   0   ~   ğ   Ó   >     ~ ğ ~ >Ó >Ó ğ ~ ğ %        €%         €(         %        €F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@ @         Xeş  N :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €V   ,      Ù   ê   U     0à0à0 0 %        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         R   p     öÿÿÿ            ¼        A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO T)Vz£@	ø|ßaƒ_   P j)V 7
+”ğ™¸X\Âv    7
+”    Ğ-H    ›¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv'V    L(!H€¸   ˜›¸}ß}ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T       _   ù   §          BUUÂ„  ªşÿÿ   L               ÿÿÿÿÿÿÿÿh   P l u s C a l c u l a t o r                                           
+      %  £ÿÿÿ              F   |   p   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@$      ÀÛ    @  X˜şø˜ş @           !      b                  
+              :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €W   $      ô   ê   "     0°0°%        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X   8     A          BUUÂ]  şÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T      I     Ï          BUUÂn  şÿÿ   L               ÿÿÿÿÿÿÿÿˆ   c a l c u l a t e ( l o n g ,   l o n g )   :   S t r i n g                                                                                           
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X   8      A   ,       BUUÂ]  ƒşÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   Ğ   I      ¬   ,       BUUÂn  ƒşÿÿ   L               ÿÿÿÿÿÿÿÿx   g e t O p e r a t o r ( )   :   S t r i n g                                                                   
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   X   8   -  A   9       BUUÂ]  vşÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+      %  £ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         Ûşÿÿ£ÿÿÿ         %                @@ T   Ğ   I   -  ¬   9       BUUÂn  vşÿÿ   L               ÿÿÿÿÿÿÿÿx   p o s t C a l c u l a t e ( )   :   v o i d                                                                   
+      %  £ÿÿÿ              F   €   t   EMF+@ <   0   ÀÛ             €?             ÀÛ       ÿ@$      ÀÛ    @  ¨³ş©!ÿ @           !      b                  
+              $   $     €=          €=           _   8      8       8                                %         %        €W   $      €   †   ò      0 @ %        €%         €$   $     €A          €A           (         F   0   $   EMF+@ À       ãòüÿ   ¯ÿ£ÿ©!ÿ(         $   $     €=          €=           '             üòã     %                  %        €V   (   ~   ‚   Š   ’        	à 	@ %        €         %         €$   $     €A          €A           F   h   \   EMF+@ <   0   ÀÛ             €?             ÀÛ       ÿ@ `         ¯ÿ£ÿ©!ÿ$   $     €=          €=           _   8      8       8                                %         %        €V   (   |   €   Œ   ”        	à 	@ %        €%         €$   $     €A          €A           (         (         (         L   d           
+  N            O  ) ª           €?          €?                                "      ÿÿÿÿF         EMF+@                         }}
+\lang3081\hich\f3\dbch\f3\loch\f3\cf1\fs20\par
+\plain\f5\fs20\loch Figure: \lang1033\hich\f5\dbch\f5\loch\f5\protect\loch 1\hich\f4\dbch\f4\loch\f4\i\protect0\par
+\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_895AF6FA_D302_487b_826D_8C9C360AB3E8}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+{\*\bkmkstart BKM_265A0BF4_BFE5_4ab6_BA04_7ACD7A0AB41B}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Diagram.Name}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch TemplateMethodPattern}}\loch  - \lang1033\hich\f4\dbch\f4\loch\f4\i\loch ({\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Diagram.Type}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch Logical}}\loch  diagram) \lang3081\hich\f3\dbch\f3\loch\f3\i0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Created By:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Author}{\fldrslt\loch chaoch}}\loch  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch 
+on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.DateCreatedShort}{\fldrslt\loch 2014/8/2}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Last Modified:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.DateModifiedShort}{\fldrslt\loch 2014/8/2}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Version:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Version}{\fldrslt\loch 1.0}}\loch . \hich\f4\dbch\f4\loch\f4\cf3\i\loch 
+Locked:\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.IsLocked}{\fldrslt\loch False}}\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.GUID}{\fldrslt\loch \{265A0BF4-BFE5-4ab6-BA04-7ACD7A0AB41B\}}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Diagram.Notes}{\fldrslt}}\ql\par
+\qc\plain\f0\fs20\hich\f0\dbch\f0\loch\f0\cf0
+{\*\shppict{\pict\emfblip\picw6874\pich9858\picwgoal3900\pichgoal5595\picscalex100\picscaley100\sspicalign0\bin16752   l   øÿÿÿÿÿÿÿÍ   !          Ù  ‚&   EMF   pA  f                 @  „  4  >              Üœ <Ø F   ,       EMF+@       ÀÛ   `   `   F   ¼   °   EMF+@        *@  $        €?          €¿        @ 8   ,   ÀÛ    †                     ÀÛ       ÿ@4   (   ÀÛ    @   ÿÿ êşÂ êşÂ ÿÿ ÿÿ    @           !      b         $   $     €=          €=           _   8      8       8                                %         %        €W   0   ÿÿÿÿÿÿÿÿÄ           ` `    %        €%         €$   $     €A          €A           (         F   <   0   EMF+@ À,       ÿÿÿÿ    ìÿ™ ìÿ¦ úÿ¦ ÿÿ ÿÿ ìÿ$   $     €=          €=           '             ÿÿÿ     %                  %        €V   4         ¦          @	@`
+` `
+    @%        €         %         €$   $     €A          €A           F   p   d   EMF+@ 8   ,   ÀÛ    †                     ÀÛ       ÿ@ `(          ìÿ™ ìÿ¦ úÿ¦ ÿÿ ÿÿ ìÿ$   $     €=          €=           _   8      8       8                                %         %        €V   4   ÿÿÿÿÿÿÿÿ¨          @	@`
+` `
+    @%        €%         €$   $     €A          €A           (         "      ÿÿÿÿF         EMF+@         
+                                     	        r  	      `   `         `    ÿÿÿ      d   d   d   d                          R   p     öÿÿÿ            ¼        A R I A L                                                         böÿbĞ©2 ›¸ ›¸:lÂvP~ß˜~ßŒãwi÷uFàw”×  ×´|ŒhªbO 4bV¡£ 	 ~ßaƒ_   P `bV:
+’ ›¸X\Âv   :
+’    Ğ-H   P›¸Øÿ¡qp~ß   ßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv      Ã‚& \~ß>  ßõqw8ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T   T         –           BUUÂ   üÿÿÿ   L               ÿÿÿÿÿÿÿÿP                                                    T   ğ         —           BUUÂ   üÿÿÿ   L               ÿÿÿÿÿÿÿÿ„   c l a s s   T e m p l a t e M e t h o d P a t t e r n                           	                  	                                                                        
+                            (         F   P   D   EMF+*@  $        €?          €¿  ŒÃ  æÂ
+@ À      À¿Àÿ   *ÿ¤ [ (         !      b                  $   $     €=          €=           '             À¿À     %         %        €V   0         ¶   w       À p`p`À À%        €%         €$   $     €A          €A           F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ    À¿Àÿ@ @         *ÿ¤ [ :      
+   $   $     €=          €=           _   8      8       8        !        À¿À             %         %        €V   ,   ûÿÿÿ   Í          p`p`À À%        €%         €$   $     €A          €A           (         :      
+   F   „   x   EMF+@X   L   ÀÛ           €“C  gÃ  $C  ¶BÌÛåÿãòüÿÌÛåÿãòüÿ          ?  €?ÌÛåÿãòüÿãòüÿ
+@ @            'ÿ¤ [ %        €'             åÛÌ     %         %        €V   0            t         t  t     %        €%         €(         '             çİÎ     %         %        €V   0            t         t  t     %        €%         €(         '             éßĞ     %         %        €V   0         "   t         t " t "    %        €%         €(         '             ëáÒ     %         %        €V   0   "      )   t      "  " t ) t )  "  %        €%         €(         '             íãÔ     %         %        €V   0   )      0   t      )  ) t 0 t 0  )  %        €%         €(         '             ïåÖ     %         %        €V   0   0      7   t      0  0 t 7 t 7  0  %        €%         €(         '             ñçØ     %         %        €V   0   7      @   t      7  7 t @ t @  7  %        €%         €(         '             óéÚ     %         %        €V   0   @      H   t      @  @ t H t H  @  %        €%         €(         '             õëÜ     %         %        €V   0   H      O   t      H  H t O t O  H  %        €%         €(         '             ÷íŞ     %         %        €V   0   O      V   t      O  O t V t V  O  %        €%         €(         '             ùïà     %         %        €V   0   V      \   t      V  V t \ t \  V  %        €%         €(         '             üòã     %         %        €V   0   \      ³   t      \  \ t ³ t ³  \  %        €%         €(         %        €F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@ @         'ÿ¤ [ :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €V   ,   øÿÿÿ   Ê   ‹      ğ @0@0ğ %        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         R   p     öÿÿÿ            ¼       A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO VrV¡`ø|ßaƒ_   P ¬ rVü
+Fğ™¸X\Âv   ü
+F    Ğ-H   °…¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv‰  óHóH€¸   ¨…¸}ß}ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T   ¬   6   "   Œ   ,        BUUÂN  kÿÿÿ   L               ÿÿÿÿÿÿÿÿl   A b s t r a c t T e m p l a t e                               	                  
+        ÿÿÿ              F   |   p   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@$      ÀÛ    @  'YÿËYÿ @           !      b                  
+              :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €W   $   øÿÿÿ   Ê   K      ğ @0@%        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         R   p     öÿÿÿ                      A R I A L                                                         ¾°{ßø{ß×Ÿ~´|Œô{ßLªbü
+EŒãwk÷uFàw”×  × |ßaƒ_N JnV1_ü
+Eğ™¸ğ™¸O 4nVü
+Eğ™¸XpÁÉ           Ğ-H   ğ™¸Ø    ä{ß   è}ßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv            H€¸   è™¸¬|ß#àwğ™¸ğ™¸:lÂvè™¸À|ß­…v  ×    ğ™¸dv     %                @@ T   X      <      H        BUUÂ,  Qÿÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         R   p     öÿÿÿ                     A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO VqV¡`ø|ßaƒ_   P ª qVü
+Fğ™¸X\Âv   ü
+F    Ğ-H    …¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂv‰  óHóH€¸   ˜…¸}ß#àw …¸    :lÂv˜…¸¤}ß­…v  ×     …¸dv     %                @@ T   Ø   %   <      H        BUUÂ=  Qÿÿÿ   L               ÿÿÿÿÿÿÿÿ|   a b s t r a c t M e t h o d ( )   :   v o i d                                                                        
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   X      I      U        BUUÂ,  Dÿÿÿ   L               ÿÿÿÿÿÿÿÿP   -         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   Ø   %   I   ”   U        BUUÂ=  Dÿÿÿ   L               ÿÿÿÿÿÿÿÿ|   c o n c r e t e M e t h o d ( )   :   v o i d                           	                                             
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   X      V      b        BUUÂ,  7ÿÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   À   %   V   ‚   b        BUUÂ=  7ÿÿÿ   L               ÿÿÿÿÿÿÿÿt   h o o k M e t h o d ( )   :   v o i d               	                                             
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   X      c      o        BUUÂ,  *ÿÿÿ   L               ÿÿÿÿÿÿÿÿP   +         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   Ø   %   c   –   o        BUUÂ=  *ÿÿÿ   L               ÿÿÿÿÿÿÿÿ|   t e m p l a t e M e t h o d ( )   :   v o i d         	                  	                                             
+        ÿÿÿ              F   ,       EMF+
+@ À      À¿Àÿ   5ƒş‹ H !      b                  
+              $   $     €=          €=           %         %        €V   0      Â   ¨   
+     Ğ Ğ €
+ €
+ Ğ %        €%         €$   $     €A          €A           F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ    À¿Àÿ@ @         5ƒş‹ H :      
+   $   $     €=          €=           _   8      8       8        !        À¿À             %         %        €V   ,      «   ¿   !     Ğ €
+ €
+ Ğ %        €%         €$   $     €A          €A           (         :      
+   F   „   x   EMF+@X   L   ÀÛ            ™C  ½Ã  C  BÌÛåÿãòüÿÌÛåÿãòüÿ          ?  €?ÌÛåÿãòüÿãòüÿ
+@ @            2†ş‹ H %        €'             åÛÌ     %         %        €V   0      ¿            ¿    ¿  ¿ %        €%         €(         '             çİÎ     %         %        €V   0      ¿   %         ¿  % % ¿  ¿ %        €%         €(         '             éßĞ     %         %        €V   0   %   ¿   *        % ¿ % * * ¿ % ¿ %        €%         €(         '             ëáÒ     %         %        €V   0   *   ¿   0        * ¿ * 0 0 ¿ * ¿ %        €%         €(         '             íãÔ     %         %        €V   0   0   ¿   6        0 ¿ 0 6 6 ¿ 0 ¿ %        €%         €(         '             ïåÖ     %         %        €V   0   6   ¿   <        6 ¿ 6 < < ¿ 6 ¿ %        €%         €(         '             ñçØ     %         %        €V   0   <   ¿   D        < ¿ < D D ¿ < ¿ %        €%         €(         '             óéÚ     %         %        €V   0   D   ¿   J        D ¿ D J J ¿ D ¿ %        €%         €(         '             õëÜ     %         %        €V   0   J   ¿   P        J ¿ J P P ¿ J ¿ %        €%         €(         '             ÷íŞ     %         %        €V   0   P   ¿   V        P ¿ P V V ¿ P ¿ %        €%         €(         '             ùïà     %         %        €V   0   V   ¿   \        V ¿ V \ \ ¿ V ¿ %        €%         €(         '             üòã     %         %        €V   0   \   ¿   ¥        \ ¿ \ ¥ ¥ ¿ \ ¿ %        €%         €(         %        €F   `   T   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@ @         2†ş‹ H :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €V   ,      ¨   ¼         pP
+pP
+ğ ğ%        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         R   p     öÿÿÿ            ¼        A R I A L                                                         böÿbh«2ğ™¸ğ™¸:lÂv¨|ßğ|ßŒãw&j÷uFàw”×  ×´|ŒhªbO VpV¡`ø|ßaƒ_   P `pVü
+Fğ™¸X\Âv   ü
+F    Ğ-H   P›¸Ø   È|ß °ıÿøßõqwÅ$ şÿÿÿŒãwòàwFàw   :lÂvnV    b6!›H€¸   H›¸}ß}ß²`H6›ÿÿÿÿ$€Únøß Ü"ÄH6›   9  dv     %                   T   ¬   4   È   Œ   Ó        BUUÂL  Åşÿÿ   L               ÿÿÿÿÿÿÿÿl   C o n c r e t e T e m p l a t e                               	                  
+        ÿÿÿ              F   |   p   EMF+@ 8   ,   ÀÛ    †         €?          ÀÛ       ÿ@$      ÀÛ    @  2³ş½³ş @           !      b                  
+              :      
+   $   $     €=          €=           _   8      8       8        !                        %         %        €W   $      Ã   ¼   ñ        P
+ %        €%         €$   $     €A          €A           (         :      
+   "      ÿÿÿÿF         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   X      â   (   î        BUUÂ7  «şÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   Ø   0   â   ›   î        BUUÂH  «şÿÿ   L               ÿÿÿÿÿÿÿÿ|   a b s t r a c t M e t h o d ( )   :   v o i d                           	                                             
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   X      ï   (   û        BUUÂ7  şÿÿ   L               ÿÿÿÿÿÿÿÿP   #         
+        ÿÿÿ              F         EMF+@         
+                                              	        r  	      `   `         `    ÿÿÿ      d   d   d   d         èşÿÿÿÿÿ         %                @@ T   À   0   ï      û        BUUÂH  şÿÿ   L               ÿÿÿÿÿÿÿÿt   h o o k M e t h o d ( )   :   v o i d               	                                             
+        ÿÿÿ              F   €   t   EMF+@ <   0   ÀÛ             €?             ÀÛ       ÿ@$      ÀÛ    @  xÎşxÿ @           !      b                  
+              $   $     €=          €=           _   8      8       8                                %         %        €W   $   ^   s   b   Á       ğ P%        €%         €$   $     €A          €A           (         F   0   $   EMF+@ À       ãòüÿ   ~ÿrÿxÿ(         $   $     €=          €=           '             üòã     %                  %        €V   (   Z   u   f   …      `P P P%        €         %         €$   $     €A          €A           F   h   \   EMF+@ <   0   ÀÛ             €?             ÀÛ       ÿ@ `         ~ÿrÿxÿ$   $     €=          €=           _   8      8       8                                %         %        €V   (   X   s   h   ‡      `P P P%        €%         €$   $     €A          €A           (         (         (         L   d           Ã             Ä     ) ª           €?          €?                                "      ÿÿÿÿF         EMF+@                         }}
+\lang3081\hich\f3\dbch\f3\loch\f3\cf1\fs20\par
+\plain\f5\fs20\loch Figure: \lang1033\hich\f5\dbch\f5\loch\f5\protect\loch 2\hich\f4\dbch\f4\loch\f4\i\protect0\par
+\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_265A0BF4_BFE5_4ab6_BA04_7ACD7A0AB41B}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s13\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart BKM_E2551832_1E16_4a02_A6D1_0B3C04E8AE49}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\protect\loch Element.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\loch 
+AbstractCalculator}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Element.Type}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch\u31867 
+?}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch     {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\ul\protect\loch Element.BaseClasses}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Status}{\fldrslt\loch Proposed}}\loch .  Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Version}{\fldrslt\loch 1.0}}\loch .  Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.ParentPackage}{\fldrslt\loch TemplateMethodPattern}}\loch 
+     \cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Keywords:  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\cf5\i0\protect\loch Element.Tag}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  \plain\f5\fs20\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\i\protect\loch 
+Element.DateCreatedShort}{\fldrslt\hich\f4\dbch\f4\loch\f4\i\loch 2014/8/2}}\loch .  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Element.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.GUID}{\fldrslt\loch \{E2551832-1E16-4a02-A6D1-0B3C04E8AE49\}}}\par
+\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Notes}{\fldrslt}}\plain\f5\fs20\ql\par
+\hich\f3\dbch\f3\loch\f3\par
+\par
+\trowd\trgaph60\trleft0\trrh289\trhdr\trkeep
+\clvertalt\clmgf\cellx9240
+\clmrg\cellx9360
+\pard\intbl\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Custom Properties\ul0\cell\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\cf1\b0\i0\intbl\row
+\trowd\trgaph60\trleft0\trrh351
+\clvertalt\cellx630
+\clvertalt\cellx9360
+\pard\intbl\s0\qr\plain\f0\fs20\lang3081\hich\f7\dbch\f7\loch\f7\loch\u61599 ?\hich\f3\dbch\f3\loch\f3\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Name}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch isActive}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  = {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Value}{\fldrslt\loch False}}\cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\pard\s38\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\b\ul\i\loch Connections\cs1\cf6\ul0\par
+\trowd\trgaph60\trleft0\trrh245\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Connector\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Source\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Target\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch PlusCalculator}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractCalculator}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_3FB3B006_37AD_42c8_8E7E_BDFADBFB738C}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Operations\ul0\par
+\trowd\trgaph60\trleft0\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Method\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Parameters\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch 
+calculate}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\loch String}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch [{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch 
+MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch exp}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+\plain\f5\fs20\cell
+{\*\bkmkend BKM_3FB3B006_37AD_42c8_8E7E_BDFADBFB738C}\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_F1A86072_72FD_4b0f_9018_8937C572220B}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch calculate}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch String}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\loch long}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch 
+[{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch 
+MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch num2}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+{\field\fldlock{\*\fldinst MERGEFIELD \cs37\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\hich\f4\dbch\f4\loch\f4\b\loch long}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch [{\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch 
+num1}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+\plain\f5\fs20\cell
+{\*\bkmkend BKM_F1A86072_72FD_4b0f_9018_8937C572220B}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_BAC20BAD_7116_4327_A813_720C73497B09}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch getOperator}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch String}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_BAC20BAD_7116_4327_A813_720C73497B09}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_A8B250FE_68FA_409b_9AC3_B162DF9661B4}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch postCalculate}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_A8B250FE_68FA_409b_9AC3_B162DF9661B4}\intbl\row
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_CC23AED1_43F3_4764_A297_232EE3E65874}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch retrieveOperands}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch List<Long>}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Private}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\loch String}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch [{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch 
+MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch operator}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+{\field\fldlock{\*\fldinst MERGEFIELD \cs37\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\hich\f4\dbch\f4\loch\f4\b\loch String}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch [{\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch 
+exp}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+\plain\f5\fs20\cell
+{\*\bkmkend BKM_CC23AED1_43F3_4764_A297_232EE3E65874}\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_E2551832_1E16_4a02_A6D1_0B3C04E8AE49}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s13\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart BKM_B4E57BF5_F84A_4e9b_B451_5F035BF5D548}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\protect\loch Element.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\loch 
+AbstractTemplate}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Element.Type}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch\u31867 
+?}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch     {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\ul\protect\loch Element.BaseClasses}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Status}{\fldrslt\loch Proposed}}\loch .  Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Version}{\fldrslt\loch 1.0}}\loch .  Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.ParentPackage}{\fldrslt\loch TemplateMethodPattern}}\loch 
+     \cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Keywords:  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\cf5\i0\protect\loch Element.Tag}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  \plain\f5\fs20\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\i\protect\loch 
+Element.DateCreatedShort}{\fldrslt\hich\f4\dbch\f4\loch\f4\i\loch 2014/8/2}}\loch .  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Element.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.GUID}{\fldrslt\loch \{B4E57BF5-F84A-4e9b-B451-5F035BF5D548\}}}\par
+\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Notes}{\fldrslt}}\plain\f5\fs20\ql\par
+\hich\f3\dbch\f3\loch\f3\par
+\par
+\trowd\trgaph60\trleft0\trrh289\trhdr\trkeep
+\clvertalt\clmgf\cellx9240
+\clmrg\cellx9360
+\pard\intbl\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Custom Properties\ul0\cell\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\cf1\b0\i0\intbl\row
+\trowd\trgaph60\trleft0\trrh351
+\clvertalt\cellx630
+\clvertalt\cellx9360
+\pard\intbl\s0\qr\plain\f0\fs20\lang3081\hich\f7\dbch\f7\loch\f7\loch\u61599 ?\hich\f3\dbch\f3\loch\f3\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Name}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch isActive}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  = {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Value}{\fldrslt\loch False}}\cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\pard\s38\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\b\ul\i\loch Connections\cs1\cf6\ul0\par
+\trowd\trgaph60\trleft0\trrh245\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Connector\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Source\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Target\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch ConcreteTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch ConcreteTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_70AC86A9_9878_421e_A3B9_6AE891A45664}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Operations\ul0\par
+\trowd\trgaph60\trleft0\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Method\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Parameters\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch 
+abstractMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_70AC86A9_9878_421e_A3B9_6AE891A45664}\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_A7551571_ECA1_44ee_B9FF_30C07B809AF7}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch concreteMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Private}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_A7551571_ECA1_44ee_B9FF_30C07B809AF7}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_FC8E4CD6_0BF3_4feb_B4CA_FF0226719C27}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch hookMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_FC8E4CD6_0BF3_4feb_B4CA_FF0226719C27}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_39F08651_219D_4459_9DAF_4B8D2F5D8447}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch templateMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_39F08651_219D_4459_9DAF_4B8D2F5D8447}\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_B4E57BF5_F84A_4e9b_B451_5F035BF5D548}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s13\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart BKM_0F7DCB04_E740_42b8_B592_31C43A985A61}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\protect\loch Element.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\loch 
+ConcreteTemplate}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Element.Type}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch\u31867 
+?}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch     {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\ul\protect\loch Element.BaseClasses}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\ul\loch AbstractTemplate}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Status}{\fldrslt\loch Proposed}}\loch .  Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Version}{\fldrslt\loch 1.0}}\loch .  Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.ParentPackage}{\fldrslt\loch TemplateMethodPattern}}\loch 
+     \cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Keywords:  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\cf5\i0\protect\loch Element.Tag}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  \plain\f5\fs20\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\i\protect\loch 
+Element.DateCreatedShort}{\fldrslt\hich\f4\dbch\f4\loch\f4\i\loch 2014/8/2}}\loch .  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Element.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.GUID}{\fldrslt\loch \{0F7DCB04-E740-42b8-B592-31C43A985A61\}}}\par
+\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Notes}{\fldrslt}}\plain\f5\fs20\ql\par
+\hich\f3\dbch\f3\loch\f3\par
+\par
+\trowd\trgaph60\trleft0\trrh289\trhdr\trkeep
+\clvertalt\clmgf\cellx9240
+\clmrg\cellx9360
+\pard\intbl\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Custom Properties\ul0\cell\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\cf1\b0\i0\intbl\row
+\trowd\trgaph60\trleft0\trrh351
+\clvertalt\cellx630
+\clvertalt\cellx9360
+\pard\intbl\s0\qr\plain\f0\fs20\lang3081\hich\f7\dbch\f7\loch\f7\loch\u61599 ?\hich\f3\dbch\f3\loch\f3\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Name}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch isActive}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  = {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Value}{\fldrslt\loch False}}\cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\pard\s38\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\b\ul\i\loch Connections\cs1\cf6\ul0\par
+\trowd\trgaph60\trleft0\trrh245\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Connector\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Source\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Target\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch ConcreteTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_E86DC7E9_CF8F_4770_94F3_EAC27C6AA0B4}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Operations\ul0\par
+\trowd\trgaph60\trleft0\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Method\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Parameters\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch 
+abstractMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_E86DC7E9_CF8F_4770_94F3_EAC27C6AA0B4}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_310642A9_D7FC_4845_87F5_2C4ED2896C6D}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch hookMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_310642A9_D7FC_4845_87F5_2C4ED2896C6D}\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_0F7DCB04_E740_42b8_B592_31C43A985A61}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s13\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart BKM_B1BEE3D0_D818_4080_B692_19AC56BC8D8B}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\protect\loch Element.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\loch 
+ConcreteTemplate}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Element.Type}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch\u31867 
+?}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch     {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\ul\protect\loch Element.BaseClasses}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\ul\loch AbstractTemplate}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Status}{\fldrslt\loch Proposed}}\loch .  Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Version}{\fldrslt\loch 1.0}}\loch .  Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.ParentPackage}{\fldrslt\loch TemplateMethodPattern}}\loch 
+     \cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Keywords:  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\cf5\i0\protect\loch Element.Tag}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  \plain\f5\fs20\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\i\protect\loch 
+Element.DateCreatedShort}{\fldrslt\hich\f4\dbch\f4\loch\f4\i\loch 2014/8/2}}\loch .  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Element.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.GUID}{\fldrslt\loch \{B1BEE3D0-D818-4080-B692-19AC56BC8D8B\}}}\par
+\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Notes}{\fldrslt}}\plain\f5\fs20\ql\par
+\hich\f3\dbch\f3\loch\f3\par
+\par
+\trowd\trgaph60\trleft0\trrh289\trhdr\trkeep
+\clvertalt\clmgf\cellx9240
+\clmrg\cellx9360
+\pard\intbl\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Custom Properties\ul0\cell\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\cf1\b0\i0\intbl\row
+\trowd\trgaph60\trleft0\trrh351
+\clvertalt\cellx630
+\clvertalt\cellx9360
+\pard\intbl\s0\qr\plain\f0\fs20\lang3081\hich\f7\dbch\f7\loch\f7\loch\u61599 ?\hich\f3\dbch\f3\loch\f3\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Name}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch isActive}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  = {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Value}{\fldrslt\loch False}}\cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\pard\s38\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\b\ul\i\loch Connections\cs1\cf6\ul0\par
+\trowd\trgaph60\trleft0\trrh245\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Connector\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Source\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Target\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch ConcreteTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractTemplate}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_AC4E3133_A449_40e6_B131_2262B67B6866}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Operations\ul0\par
+\trowd\trgaph60\trleft0\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Method\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Parameters\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch 
+abstractMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_AC4E3133_A449_40e6_B131_2262B67B6866}\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_7222CB70_2E6C_491e_9223_AF78ED447D58}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch concreteMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_7222CB70_2E6C_491e_9223_AF78ED447D58}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_6DC81E5D_2A2F_4903_A90B_650E091239A7}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch hookMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_6DC81E5D_2A2F_4903_A90B_650E091239A7}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_F7CEAEE4_7378_4a06_8B39_7911FB560C28}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch templateMethod}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Public}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_F7CEAEE4_7378_4a06_8B39_7911FB560C28}\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_B1BEE3D0_D818_4080_B692_19AC56BC8D8B}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s13\sb240\sa60\ql\plain\f0\fs20{\*\bkmkstart BKM_3F29F753_0E83_4b99_AC9C_F479A2D27A4A}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\protect\loch Element.Name}{\fldrslt\lang3081\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\loch 
+PlusCalculator}}\lang1033\hich\f5\dbch\f5\loch\f5\cf3\fs26\b\par
+\pard\s0\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Type:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Element.Type}{\fldrslt\hich\f4\dbch\f4\loch\f4\b\ul\loch\u31867 
+?}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch     {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\ul\protect\loch Element.BaseClasses}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\ul\loch AbstractCalculator}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Status:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Status}{\fldrslt\loch Proposed}}\loch .  Version {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Version}{\fldrslt\loch 1.0}}\loch .  Phase {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Phase}{\fldrslt\loch 1.0}}\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Package:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.ParentPackage}{\fldrslt\loch TemplateMethodPattern}}\loch 
+     \cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Keywords:  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\cf5\i0\protect\loch Element.Tag}{\fldrslt}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch  \plain\f5\fs20\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch Detail:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab\lang1033\hich\f4\dbch\f4\loch\f4\i\loch Created on\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\i\protect\loch 
+Element.DateCreatedShort}{\fldrslt\hich\f4\dbch\f4\loch\f4\i\loch 2014/8/2}}\loch .  \lang1033\hich\f4\dbch\f4\loch\f4\i\loch Last modified on {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Element.DateModifiedShort}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\loch 
+2014/8/2}}\lang3081\hich\f3\dbch\f3\loch\f3\i0\loch .\par
+\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\i\loch GUID:\cs1\lang3081\hich\f3\dbch\f3\loch\f3\cf1\i0\loch\tab\tab{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.GUID}{\fldrslt\loch \{3F29F753-0E83-4b99-AC9C-F479A2D27A4A\}}}\par
+\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Notes}{\fldrslt}}\plain\f5\fs20\ql\par
+\hich\f3\dbch\f3\loch\f3\par
+\par
+\trowd\trgaph60\trleft0\trrh289\trhdr\trkeep
+\clvertalt\clmgf\cellx9240
+\clmrg\cellx9360
+\pard\intbl\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Custom Properties\ul0\cell\cell
+\lang3081\hich\f4\dbch\f4\loch\f4\cf1\b0\i0\intbl\row
+\trowd\trgaph60\trleft0\trrh351
+\clvertalt\cellx630
+\clvertalt\cellx9360
+\pard\intbl\s0\qr\plain\f0\fs20\lang3081\hich\f7\dbch\f7\loch\f7\loch\u61599 ?\hich\f3\dbch\f3\loch\f3\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Name}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch isActive}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  = {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch CustomProperty.Value}{\fldrslt\loch False}}\cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+\par
+\lang1033\hich\f4\dbch\f4\loch\f4\par
+\pard\s38\ql\plain\f0\fs20\cs34\lang1033\hich\f4\dbch\f4\loch\f4\cf3\b\ul\i\loch Connections\cs1\cf6\ul0\par
+\trowd\trgaph60\trleft0\trrh245\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Connector\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Source\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Target\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2250
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx4320
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6390
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\protect\loch Connector.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\ul\loch Generalization}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch 
+ \cs1\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Name}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Connector.Direction}{\fldrslt\loch Source -> Destination}}\loch  \par
+\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnSource.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch PlusCalculator}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Scope}{\fldrslt\lang3081\hich\f3\dbch\f3\loch\f3\loch Public}}\lang3081\hich\f3\dbch\f3\loch\f3\loch  {\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.Role}{\fldrslt}}\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch ConnTarget.RoleNote}{\fldrslt}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Element.Name}{\fldrslt\loch AbstractCalculator}}\par
+\loch  \cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Connector.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\ql\par
+\loch  \cell
+\intbl\row
+\pard\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_B2F205C7_220D_4b5f_A346_CDB45CF02EE9}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\pard\s38\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\cf6\b\ul\i\loch Operations\ul0\par
+\trowd\trgaph60\trleft0\trhdr\trkeep
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\clcbpat8\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Method\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Notes\cell
+\pard\intbl\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\b\loch Parameters\cell
+\lang3081\hich\f3\dbch\f3\loch\f3\b0\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch 
+calculate}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Type}{\fldrslt\loch String}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\lang3081\hich\f4\dbch\f4\loch\f4\b\loch long}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch 
+[{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch 
+MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch num2}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+{\field\fldlock{\*\fldinst MERGEFIELD \cs37\hich\f4\dbch\f4\loch\f4\b\protect\loch MethParameter.Type}{\fldrslt\cs37\hich\f4\dbch\f4\loch\f4\b\loch long}}\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  \cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch [{\field\fldlock{\*\fldinst 
+MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Kind}{\fldrslt\loch in}}\loch ]\cs37\lang1033\hich\f4\dbch\f4\loch\f4\b\loch  {\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\b0\protect\loch MethParameter.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b0\loch 
+num1}}\cs1\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  \par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch MethParameter.Notes}{\fldrslt}}\ql\par
+\plain\f5\fs20\cell
+{\*\bkmkend BKM_B2F205C7_220D_4b5f_A346_CDB45CF02EE9}\intbl\row
+\trowd\trgaph60\lastrow\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_442D4BBE_89AF_4e1c_A9B8_5E758C4F16CB}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch getOperator}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch String}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_442D4BBE_89AF_4e1c_A9B8_5E758C4F16CB}\intbl\row
+\trowd\trgaph60\trleft0
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx2340
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx6300
+\clvertalt\clbrdrt\brdrs\brdrw1\clbrdrb\brdrs\brdrw1\clbrdrl\brdrs\brdrw1\clbrdrr\brdrs\brdrw1\cellx9360
+\pard\intbl\s0\ql\plain\f0\fs20{\*\bkmkstart BKM_B26E8C80_07F6_41ed_9E7B_1A6BCF0EB8AF}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Static}}{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Const\loch Meth.Pure\b\loch Meth.Name}{\fldrslt\lang3081\hich\f4\dbch\f4\loch\f4\b\loch postCalculate}}\lang1033\hich\f4\dbch\f4\loch\f4\b\loch ()\lang3081\hich\f3\dbch\f3\loch\f3\b0\loch  {\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch 
+Meth.Type}{\fldrslt\loch void}}\par
+{\field\fldlock{\*\fldinst MERGEFIELD \hich\f4\dbch\f4\loch\f4\protect\loch Meth.Scope}{\fldrslt\loch Protected}}\plain\f5\fs20\cell
+\pard\intbl\s0\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f4\dbch\f4\loch\f4\protect\loch Meth.Notes}{\fldrslt}}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\pard\intbl\s33\ql\plain\f0\fs20{\field\fldlock{\*\fldinst MERGEFIELD \lang3081\hich\f8\dbch\f8\loch\f8\fs18\protect\loch Meth.Behavior}{\fldrslt}}\lang1033\hich\f8\dbch\f8\loch\f8\fs18\pard\intbl\s33\ql\cell
+\pard\intbl\s0\ql\plain\f0\fs20\plain\f5\fs20\cell
+{\*\bkmkend BKM_B26E8C80_07F6_41ed_9E7B_1A6BCF0EB8AF}\intbl\row
+\pard\s0\ql\plain\f0\fs20\lang1033\hich\f4\dbch\f4\loch\f4\loch  {\*\bkmkend BKM_3F29F753_0E83_4b99_AC9C_F479A2D27A4A}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\lang1033\hich\f4\dbch\f4\loch\f4\loch   {\*\bkmkend TemplateMethodPattern}{\*\bkmkend BKM_1AD6E57D_A059_4098_917E_5B4C5A3F15B2}\lang3081\hich\f3\dbch\f3\loch\f3\par
+\par
+\cf0\par
+}
