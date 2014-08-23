@@ -6,6 +6,7 @@ package patterns.behavior.iterator;
  * @author Charles Chen
  * @date 2014Äê8ÔÂ23ÈÕ
  * @param <T>
+ * @link http://www.charlestech.org/view_article.shtml?uid=EARZQXDWCS53
  */
 public interface Aggregate<T> {
 	void add(T elem);

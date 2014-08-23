@@ -9,6 +9,7 @@ import java.util.List;
  * @author Charles Chen
  * @date 2014Äê8ÔÂ23ÈÕ
  * @param <T>
+ * @link http://www.charlestech.org/view_article.shtml?uid=EARZQXDWCS53
  */
 public class ConcreteAggregate<T> implements Aggregate<T> {
 	private List<T> data;

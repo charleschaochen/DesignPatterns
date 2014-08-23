@@ -5,6 +5,7 @@ package patterns.behavior.iterator;
  * 
  * @author Charles Chen
  * @date 2014Äê8ÔÂ23ÈÕ
+ * @link http://www.charlestech.org/view_article.shtml?uid=EARZQXDWCS53
  */
 public class ConcreteIterator implements Iterator {
 	private Aggregate aggregate;
